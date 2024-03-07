@@ -9,3 +9,7 @@ def fibonacci_sum(request):
     return {"sum": sum(fibonacci_sequence)}
 
 
+#This is the URL for the fibonacci_series cloud function
+# https://northamerica-northeast1-certain-beach-391616.cloudfunctions.net/fibonacci_series
+
+
