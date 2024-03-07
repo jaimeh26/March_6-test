@@ -6,7 +6,7 @@ def fibonacci_sum(request):
         if next_number >= 100:
             break
         fibonacci_numbers.append(next_number)
-    return {"sum": sum(fibonacci_numbers)}
+    return {sum(fibonacci_numbers)}
 
 
 #This is the URL for the fibonacci_series cloud function
